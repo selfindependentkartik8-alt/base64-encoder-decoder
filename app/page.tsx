@@ -272,7 +272,7 @@ export default function Home() {
 
               <button
                 onClick={handleConvert}
-                className="h-14 flex-1 rounded-2xl bg-rose-500 px-7 text-sm font-semibold text-white shadow-xl shadow-rose-500/20 transition duration-300 hover:-translate-y-0.5 hover:bg-rose-400 active:scale-[0.98]"
+               className="h-16 min-h-[64px] w-full flex-1 rounded-2xl bg-rose-500 px-7 py-4 text-base font-semibold text-white shadow-xl shadow-rose-500/20 transition duration-300 hover:-translate-y-0.5 hover:bg-rose-400 active:scale-[0.98] sm:h-14 sm:min-h-0 sm:text-sm"
               >
                 {mode === "encode"
                   ? "🔐 Encode"
