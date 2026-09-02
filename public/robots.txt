@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://base64encoderdecoder.krishaiworks.com/sitemap.xml
